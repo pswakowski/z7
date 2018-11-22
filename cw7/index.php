@@ -1,5 +1,4 @@
-<?php
-
+﻿<?php
 include_once 'libs/database.php';
 include_once 'libs/header.php';
 include_once 'libs/drop.php';
@@ -9,10 +8,14 @@ include_once 'libs/create_directory.php';
 include 'libs/errors.php';
 include 'libs/success.php';
 ?>
+<div class="row">
+    <div class="col">
 <h3>Wrzuc nowy plik:</h3>
     <form method="POST" ENCTYPE="multipart/form-data">
-        <input type="file" name="plik"/>
-
+        <input type="file" value="test" name="plik"/><br><br>
+        <input class="btn btn-primary" type="submit" name="wyslij_plik" value="Wyślij plik"/>
+    </div>
+    <div class="col">
         <h4>Lokalizacja?</h4>
         <input type="radio" name="" value="km"> Katalog macierzysty<br>
         <?php
@@ -22,8 +25,14 @@ include 'libs/success.php';
         }
         ?>
         <bR>
-        <input type="submit" name="wyslij_plik" value="Wyślij plik"/>
+    </div>
+    <div class="col">
+    </div>
+    <div class="col"></div>
+    <div class="col"></div>
+
     </form>
+</div>
 <hr>
 <h3>Stwórz podkatalog:</h3>
     <form method="POST">
