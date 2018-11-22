@@ -1,4 +1,4 @@
-<?php include('server.php') ?>
+﻿<?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,6 +28,8 @@
     <p>
         Nie masz konta? <a href="register.php">Zarejestruj się!</a>
     </p>
+    <a href="https://i.imgur.com/umpXRU9.png" target="_blank">Model bazy danych</a><br>
+    <a href="https://github.com/pswakowski/z7" target="_blank">Repozytorium na GitHubie</a>
 </form>
 
 </body>
