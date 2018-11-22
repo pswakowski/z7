@@ -29,7 +29,8 @@
         Nie masz konta? <a href="register.php">Zarejestruj się!</a>
     </p>
     <a href="https://i.imgur.com/umpXRU9.png" target="_blank">Model bazy danych</a><br>
-    <a href="https://github.com/pswakowski/z7" target="_blank">Repozytorium na GitHubie</a>
+    <a href="https://github.com/pswakowski/z7" target="_blank">Repozytorium na GitHubie</a><br>
+    <a href="https://webspeed.intensys.pl/wyniki/135322/" target="_blank">Wynik analizy serwisu</a>
 </form>
 
 </body>
