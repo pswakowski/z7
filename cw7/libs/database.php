@@ -1,9 +1,9 @@
 <?php
 
-$dbhost = "az-serwer1899722.online.pro";
-$dbuser = "00167332_geo";
-$dbpassword = "Memek123$";
-$dbname = "00167332_geo";
+$dbhost = "";
+$dbuser = "";
+$dbpassword = "";
+$dbname = "";
 $connection = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
 
 if (!$connection) {
